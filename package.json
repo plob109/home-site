@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "docker:build": "docker build -t plob109/home-site:latest .",
-    "docker:run": "docker run --name homesite -d -p 3001:3000 plob109/home-site:latest",
+    "docker:run": "docker run --name dockersite -d -p 3001:3000 plob109/home-site:latest",
     "docker:imagebuild": "docker image build --rm --pull -f \"/home/paul/code/client/azimuth-app/Dockerfile\" -t \"azimuth-app\" \"/home/paul/code/client/azimuth-app\"",
     "docker:save": "docker save azimuth-app -o \"../../docker-images/azimuth-app.tar\"",
     "docker:run2": "docker container run -d --restart always -p 3500:3500 --name azimuth-app azimuth-app"
