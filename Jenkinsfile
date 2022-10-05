@@ -9,6 +9,7 @@ pipeline {
                 echo 'Building..'
                 //sh 'npm run build'
                 sh 'npm --version'
+                sh 'npm run docker:build'
             }
         }
         stage('Test') {
