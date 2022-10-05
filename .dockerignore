@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+node_modules
+.dockerignore
+**/.git
+**/node_modules
+=======
+node_modules
+.dockerignore
+**/.git
+**/node_modules
+>>>>>>> 31a917dae1d2417a58812345822a5f3af24be6da
